@@ -81,3 +81,6 @@ class AuthRoutes:
 
     def gallery(self):
         return render_template("gallery.html")
+    
+    def register(self):
+        return self.register_routes()
